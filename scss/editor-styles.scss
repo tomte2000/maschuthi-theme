@@ -1,0 +1,35 @@
+@font-face {
+  font-display: block;
+  font-family: "bootstrap-icons";
+  src: url("../fonts/bootstrap-icons.woff2") format("woff2"),
+url("../fonts/bootstrap-icons.woff") format("woff");
+}
+
+.acf-field{
+  font-size: 0.75rem;
+  line-height: 1.4rem;
+  padding:1rem!important;
+  padding:0;
+  .acf-label {margin: 0 !important;}
+  &:before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    font-size: 1.6rem;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  &[data-name="fullscreen"]:before {content: "\F3DF" !important;}
+  &[data-name="steuerung"]:before {content: "\F2D4" !important;}
+  &[data-name="indicators"]:before {content: "\F5D4" !important;}
+  &[data-name="bildunterschrift"]:before {content: "\F228" !important;}
+  &[data-name="fade"]:before {content: "\F6F7" !important;}
+  &[data-name="vertikal"]:before {content: "\F127" !important;}
+  &[data-name="scroll"]:before {content: "\F499" !important;}
+
+}
